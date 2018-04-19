@@ -1,0 +1,96 @@
+.header{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    background: #9AC1FC;
+}
+.box{
+    background: #CCDFFF;
+    width: 100%;
+    height: 80px;
+    margin: 20px 0;
+    position: relative;
+}
+.box h2{
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    font-weight: bold;
+}
+
+
+.hero{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    background: #9AC1FC;
+    margin: 15px 0px;
+}
+#add .content{
+    background: #3a3ac6;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: #fff;
+}
+
+.body.header {
+    height: auto;
+}
+.body .box{
+    height: 360px;
+   overflow: hidden;
+}
+.body #add{
+    display: none;
+}
+
+
+.footer.header {
+    margin: 10px 0;
+    padding: 20px 30px;
+}
+.footer h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media screen and (max-width: 982px){
+    #add {
+    display: none;
+    }
+    .body #add{
+    display: block;
+    }
+    .box.slidef{
+        height: 120px;
+    }
+    .box.afeatures{
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .box.action {
+        display: none;
+    }
+    .body #add {
+        display: block;
+        height: 130px;
+    }
+    .box.slidef {
+        display: none;
+    }
+}
